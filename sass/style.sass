@@ -309,6 +309,7 @@ a
     height: 1000px
     margin: 0 3vw
     // margin-top: 50px
+    display: block
   .item
     font-weight: bold
 
@@ -372,13 +373,20 @@ a
       font-size: 4em
 
 
-@media screen and (max-width: 500px)
+@media screen and (max-width: 115vh)
+  .twoway
+    .block
+      background-color: $colorBlack
+      width: 2px
+      height: 1150px
+      // margin: 0 3vw
+
   .box
     .icon
       font-size: 1em
 
-    p
-      font-size: 0.7rem
+    // p
+    //   font-size: 0.7rem
   .logo
     width: 40vw
 
@@ -386,16 +394,44 @@ a
     .alec
       width: 40vw
   .twoway
+    // .bars
+    //   width: 50px
+    //   height: 1px
+    //   border: solid 0.5px $colorSky
+    //   border-radius: 15px
     .bars
-      width: 50px
+      width: 100px
       height: 1px
-      border: solid 0.5px $colorSky
+      border: solid 1px $colorSky
       border-radius: 15px
+      overflow: hidden
+      +flexCenter
+      justify-content: flex-end
+      .value
+        height: 100%
+        width: 60%
+        background-color: $colorSky
+      .p40
+        width: 40% !important
+      .p80
+        width: 80% !important
+      .p90
+        width: 90% !important
+      .p35
+        width: 35% !important
+      .p85
+        width: 85% !important
+      .p70
+        width: 70% !important
+      .p75
+        width: 75% !important
+      .p65
+        width: 65% !important
   .project
-    h3,.h1
-      font-size: 1rem
-    h5
-      font-size: 0.8rem
+    // h3,.h1
+    //   font-size: 1rem
+    // h5
+    //   font-size: 0.8rem
     .book
       img
         width: 100% !important
