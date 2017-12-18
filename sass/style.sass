@@ -11,7 +11,7 @@ $colorGreen: #56A902
 $colorOrange: #F68657
 $colorPurple: #6C49B8
 $colorYellow: #f9c00c
-$icon_size: 19%
+$icon_size: 70%
 
 @mixin size($w,$h:$w)
   width: $w
@@ -83,6 +83,7 @@ html,body
   flex-direction: column
 
 
+
   hr
     border-top: 2px solid $colorBlack
     height: 0.1vh
@@ -93,7 +94,8 @@ html,body
 .logo
   width: 25vw
   height: auto
-  padding-top: 5%
+  padding-top: 5vh
+
 
 .path
   fill: white
@@ -140,9 +142,19 @@ html,body
     padding-bottom: 0
   svg
     padding: 1vh 1vw
+  .icons
+    padding: 10px 20px
+
   .icon
-    width: $icon_size
-    height: auto
+    // width: $icon_size !important
+    // height: auto
+    font-size: 3em
+
+    a
+      text-decoration: none !important
+      color: $colorBlack
+    // border: 3px solid $colorBlack
+
     &:hover
       cursor: pointer
       fill: white
@@ -354,22 +366,22 @@ a
 
 
 
-@media screen and (min-width: 600px)
+@media screen and (min-width: 1000px)
   .box
     .icon
-      width: 15%
-      height: auto
+      font-size: 4em
 
 
-@media screen and (max-width: 400px)
+@media screen and (max-width: 500px)
   .box
     .icon
-      width: 30%
-      height: auto
+      font-size: 1em
+
     p
       font-size: 0.7rem
   .logo
     width: 40vw
+
   .name
     .alec
       width: 40vw
@@ -391,6 +403,15 @@ a
   .photo-group
     +flexCenter
     flex-direction: column !important
+  .holl
+    position: fixed
+    +size(100%)
+    left: 0
+    top: 0
+    +flexCenter
+
+
+
 
 
 

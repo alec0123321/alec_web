@@ -18,35 +18,43 @@
   </svg>
 </div>
 <div class="box">
+  <a href="cv.php" target="_blank">
   <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 165 165">
-    <a href="http://140.113.239.227/~alec/AC/cv.php" target="_blank">
+
       <rect class="cls-11" x="1.5" y="1.5" width="165" height="81" rx="12" ry="12"/>
       <text class="cls-22" transform="translate(57.83 58.94)">CV</text>
-    </a>
+
   </svg>
+      </a>
+        <a href="https://www.behance.net/alex012332fd01" target="_blank">
   <svg class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 165 165">
-    <a href="https://www.behance.net/alex012332fd01" target="_blank">
+
       <rect class="cls-11" x="1.5" y="1.5" width="165" height="81" rx="12" ry="12"/>
       <text class="cls-22" transform="translate(60.92 58.94)">Be</text>
       <path d="M103.5,31.78H89.15V28.9H103.5Z"/>
-    </a>
+
   </svg>
+  </a>
+      <a href="project.php" target="_blank">
   <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 165 165">
-    <a href="http://140.113.239.227/~alec/AC/project.php" target="_blank">
+
       <rect class="cls-11" x="1.5" y="1.5" width="165" height="81" rx="12" ry="12"/>
       <text class="cls-22" transform="translate(19.87 58.94)">P
         <tspan class="cls-33" x="23.56" y="0">r</tspan>
         <tspan x="37.59" y="0">oject</tspan>
       </text>
-    </a>
+
   </svg>
+    </a>
+      <a href="project.php" target="_blank">
   <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 165 165">
-    <a href="#" target="_blank">
+
       <rect class="cls-11" x="1.5" y="1.5" width="165" height="81" rx="12" ry="12"/>
       <text class="cls-22" transform="translate(41.4 58.94)">Blog</text>
       </text>
-    </a>
+
   </svg>
+    </a>
 
 </div>
 <div class="box footer">
